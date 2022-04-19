@@ -25,27 +25,27 @@ public class Exercicios {
 		System.out.println(Arrays.toString(notasAlunoAa));
 		System.out.println(Arrays.toString(notasAlunoAaa));
 
-		double total = 0;
+		double totalA = 0;
 		for (int i = 0; i < notasAlunoA.length; i++) {
-			total += notasAlunoA[i];
-			System.out.println(total);
+			totalA += notasAlunoA[i];
+			System.out.println(totalA);
 		}
 		// utilizando for para imprimir
 		for (int i = 0; i < notasAlunoA.length; i++) {
 			System.out.println("Nota " + (i + 1) + " : " + notasAlunoA[i]);
 		}
 
-		System.out.printf("Média dos Alunos: %.2f", total / notasAlunoA.length);
+		System.out.printf("Média dos Alunos: %.2f", totalA / notasAlunoA.length);
 		System.out.println();
 
-		total = 0;
+		double totalB = 0;
 		double[] notasAlunosB = { 6.9, 8.9, 5.5, 10 };
 		for (int i = 0; i < notasAlunosB.length; i++) {
-			total += notasAlunosB[i];
+			totalB += notasAlunosB[i];
 			System.out.printf("\nNota " + (i + 1 + " " + notasAlunosB[i]));
 		}
 
-		System.out.printf("Média dos Alunos: %.2f", total / notasAlunosB.length);
+		System.out.printf("Média dos Alunos: %.2f", totalB / notasAlunosB.length);
 	}
 
 }
