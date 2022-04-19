@@ -24,7 +24,7 @@ public class Exercicios {
 		System.out.println(Arrays.toString(notasAlunoAa));
 		System.out.println(Arrays.toString(notasAlunoAaa));
 
-		int total = 0;
+		double total = 0;
 		for (int i = 0; i < 3; i++) {
 			total += notasAlunoA[i];
 			System.out.println(total);
@@ -33,6 +33,6 @@ public class Exercicios {
 		for (int i = 0; i < 3; i++) {
 			System.out.println("Nota " + (i + 1) + " : " + notasAlunoA[i]);
 		}
-		System.out.println("Média dos Alunos: " + total / 3);
+		System.out.printf("Média dos Alunos: %.2f", total / 3);
 	}
 }
