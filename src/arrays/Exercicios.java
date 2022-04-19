@@ -26,6 +26,7 @@ public class Exercicios {
 		System.out.println(Arrays.toString(notasAlunoAaa));
 		System.out.println(notasAlunoA[0]);
 		System.out.println(notasAlunoA[notasAlunoA.length - 1]);
+		//System.out.println(notasAlunoA[4]);// error por acessar fora do indice.
 
 		double totalA = 0;
 		for (int i = 0; i < notasAlunoA.length; i++) {
