@@ -28,6 +28,7 @@ public class Exercicios {
 		for (int i = 0; i < 3; i++) {
 			total += notasAlunoA[i];
 			System.out.println(total);
+
 		}
 
 		for (int i = 0; i < 3; i++) {
