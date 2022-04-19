@@ -12,7 +12,6 @@ public class Foreach {// utiliza para pecorrer um Array
 
 		for (double nota : notas) {// Foreach para percorrer um array
 			System.out.println("Nota: " + nota);
-
 		}
 	}
 }
