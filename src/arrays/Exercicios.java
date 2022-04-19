@@ -24,6 +24,8 @@ public class Exercicios {
 		System.out.println(Arrays.toString(notasAlunoA));
 		System.out.println(Arrays.toString(notasAlunoAa));
 		System.out.println(Arrays.toString(notasAlunoAaa));
+		System.out.println(notasAlunoA[0]);
+		System.out.println(notasAlunoA[notasAlunoA.length - 1]);
 
 		double totalA = 0;
 		for (int i = 0; i < notasAlunoA.length; i++) {
@@ -38,8 +40,10 @@ public class Exercicios {
 		System.out.printf("Média dos Alunos: %.2f", totalA / notasAlunoA.length);
 		System.out.println();
 
+		final double notaArmazenada = 5.9;
+		double[] notasAlunosB = { 6.9, 8.9, notaArmazenada, 10 };
+
 		double totalB = 0;
-		double[] notasAlunosB = { 6.9, 8.9, 5.5, 10 };
 		for (int i = 0; i < notasAlunosB.length; i++) {
 			totalB += notasAlunosB[i];
 			System.out.printf("\nNota " + (i + 1 + " " + notasAlunosB[i]));
