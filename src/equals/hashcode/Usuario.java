@@ -23,8 +23,6 @@ public class Usuario {
 		}
 
 	}
-	//O hashCode sera abordado na proxima aula
-	
 	public int hashCode() {
 		return 0;
 	}
