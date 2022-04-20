@@ -10,9 +10,9 @@ public class DesafioArrayForeachAula123 {
 		int aa = Integer.parseInt(a);
 		double[] nota = new double[aa];
 		double media = 0;
-
+		
 		for (int i = 0; i < nota.length; i++) {
-			String notas = JOptionPane.showInputDialog("Digite a nota:").replace(",", ".");
+			String notas = JOptionPane.showInputDialog("Digite a nota " + (i + 1) + " :").replace(",", ".");
 			double numero = Double.parseDouble(notas);
 			nota[i] = numero;
 			media += nota[i];
@@ -22,6 +22,6 @@ public class DesafioArrayForeachAula123 {
 			System.out.println("Nota: " + d);
 		}
 
-		System.out.println("Média de notas: " + (media / nota.length));
+		System.out.printf("Média de notas: %.2f", (media / nota.length));
 	}
 }
