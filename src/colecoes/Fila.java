@@ -35,7 +35,7 @@ public class Fila {
 		// fila.isEmpty() verifica se a fila está cheia
 		// fila.pool() mostra o primeiro elemento e remove em seguida
 		// fila.remove() remove da lista
-
+		// fila.contens("Ana") verifica se existe o elemento na fila
 		// Pool e remove -> obter o próximo elemento
 		// da fila e remove
 
