@@ -3,7 +3,7 @@ package colecoes;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-public class Pila {
+public class Pilha {
 
 	public static void main(String[] args) {
 
