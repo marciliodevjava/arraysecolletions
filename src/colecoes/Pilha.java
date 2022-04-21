@@ -24,5 +24,9 @@ public class Pilha {
 		// livros.clear();
 		// livros.contains("O Hobbit");
 		// livros.isEmpty();
+
+		for (String livro : livros) {
+			System.out.println(livro);
+		}
 	}
 }
