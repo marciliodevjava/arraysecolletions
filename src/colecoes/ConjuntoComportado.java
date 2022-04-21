@@ -1,13 +1,13 @@
 package colecoes;
 
-import java.util.Set;
+import java.util.SortedSet;
 import java.util.TreeSet;
 
 public class ConjuntoComportado {
 
 	public static void main(String[] args) {
 
-		Set<String> listaAprovados = new TreeSet<>();
+		SortedSet<String> listaAprovados = new TreeSet<>();
 		listaAprovados.add("Alessandra");
 		listaAprovados.add("Isabela");
 		listaAprovados.add("Lucilia");
