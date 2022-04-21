@@ -17,5 +17,12 @@ public class Fila {
 		fila.offer("Daniel");
 		fila.offer("Rafaela");
 		fila.offer("Gui");
+
+		// Peek e Element -> retornam o primeiro elemento da fila
+		// Diferença é que o peek ser não tiver retorna "null" e o elemente retorna uma
+		// exception.
+		System.out.println(fila.peek());
+		System.out.println(fila.peek());
+		System.out.println(fila.element());
 	}
 }
