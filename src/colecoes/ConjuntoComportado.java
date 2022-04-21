@@ -7,11 +7,14 @@ public class ConjuntoComportado {
 
 	public static void main(String[] args) {
 
-		Set<String> lista = new HashSet<>();
-		lista.add("Marcílio");
-		lista.add("Alessandra");
-		lista.add("Isabela");
-		lista.add("Lucilia");
+		Set<String> listaAprovados = new HashSet<>();
+		listaAprovados.add("Marcílio");
+		listaAprovados.add("Alessandra");
+		listaAprovados.add("Isabela");
+		listaAprovados.add("Lucilia");
 
+		for (String candidato : listaAprovados) {
+			System.out.println(candidato);
+		}
 	}
 }
