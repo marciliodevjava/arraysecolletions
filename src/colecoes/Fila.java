@@ -11,8 +11,8 @@ public class Fila {
 
 		// Offer e Add -> adicionam elementos na fila
 		// Difrença é o comportamento quando a fila está cheia!
-		fila.add("Ana");
-		fila.offer("Bia");// metodo que tenha tamanho, retornando true ou false
+		fila.add("Ana");// Retorna False
+		fila.offer("Bia");// Lança uma exception
 		fila.offer("Carlos");
 		fila.offer("Daniel");
 		fila.offer("Rafaela");
@@ -21,9 +21,9 @@ public class Fila {
 		// Peek e Element -> retornam o primeiro elemento da fila
 		// Diferença é que o peek ser não tiver nada na fila retorna "null" e o elemente
 		// retorna uma exception.
-		
+
+		System.out.println(fila.peek());// Retorna null
 		System.out.println(fila.peek());
-		System.out.println(fila.peek());
-		System.out.println(fila.element());
+		System.out.println(fila.element());// Lança uma exception
 	}
 }
