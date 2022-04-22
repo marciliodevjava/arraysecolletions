@@ -16,5 +16,7 @@ public class Mapa {
 		usuarios.put(4, "Rebeca");
 
 		System.out.println(usuarios.size());
+		System.out.println(usuarios.isEmpty());
+		System.out.println(usuarios.keySet());
 	}
 }
